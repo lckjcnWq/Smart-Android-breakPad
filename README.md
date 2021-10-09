@@ -10,18 +10,20 @@
 mavenCentral()
 
 implementation 'io.github.lckjcnWq:breakpad:1.0.0'
+
+初始化: BreakpadDumper.initBreakpad(String path);
 ~~~
 
 
-2、当native有异常，会自动生成利.dump文件。  
-3、Android Studio的安装目录下bin\\lldb\\bin的minidump_stackwalk。命令如下：  
+2、当native有异常，会自动生成.dump文件到目录path中。  
+3、找到Android Studio的安装目录下bin\\lldb\\bin的minidump_stackwalk。命令如下：  
 ~~~
-minidump_stackwalk crashDump/***.dmp >crash.txt 
+minidump_stackwalk ***.dmp >crash.txt 
 ~~~
 
 成功解析文件。大家看下
 
-~~~rust
+~~~
 Operating system: Android
                   0.0.0 Linux 3.10.0+ #256 SMP PREEMPT Fri May 19 11:58:12 PDT 2017 i686
 CPU: x86
