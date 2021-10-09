@@ -1,0 +1,7 @@
+Executable : D:\Android\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+E:\Project\ProjectForAs\GoogleBreakpad-master\GoogleBreakpad-master\app\.cxx\cmake\debug\arm64-v8a
+crash-lib
+jvmArgs : 
+

@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "D:\\Android\\ndk\\android-ndk-r14b\\build\\cmake\\android.toolchain.cmake",
+    "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "crash-lib-Debug-arm64-v8a": {
+      "artifactName": "crash-lib",
+      "buildCommand": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" crash-lib",
+      "abi": "arm64-v8a",
+      "output": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libcrash-lib.so"
+    }
+  }
+}

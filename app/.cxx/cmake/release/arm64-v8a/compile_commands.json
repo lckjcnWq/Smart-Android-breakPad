@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/Project/ProjectForAs/GoogleBreakpad-master/GoogleBreakpad-master/app/.cxx/cmake/release/arm64-v8a",
+  "command": "D:\\Android\\ndk\\android-ndk-r14b\\toolchains\\aarch64-linux-android-4.9\\prebuilt\\windows-x86_64\\bin\\aarch64-linux-android-g++.exe --sysroot=D:/Android/ndk/android-ndk-r14b/platforms/android-21/arch-arm64  -Dcrash_lib_EXPORTS -isystem D:/Android/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem D:/Android/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a/include -isystem D:/Android/ndk/android-ndk-r14b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -std=c++11 -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC   -o CMakeFiles\\crash-lib.dir\\src\\main\\cpp\\crash-lib.cpp.o -c E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\src\\main\\cpp\\crash-lib.cpp",
+  "file": "E:/Project/ProjectForAs/GoogleBreakpad-master/GoogleBreakpad-master/app/src/main/cpp/crash-lib.cpp"
+}
+]

@@ -1,0 +1,30 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/aarch64-linux-android-gcc.exe 
+Build flags: -g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-Wa,--noexecstack;-Wformat;-Werror=format-security;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-Wa,--noexecstack;-Wformat;-Werror=format-security;
+Id flags:  
+
+The output was:
+1
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find crtbegin_dynamic.o: No such file or directory
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find -lc
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find -ldl
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find crtend_android.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/aarch64-linux-android-g++.exe 
+Build flags: -g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-g;-DANDROID;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-Wa,--noexecstack;-Wformat;-Werror=format-security;;-std=c++11
+Id flags:  
+
+The output was:
+1
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find crtbegin_dynamic.o: No such file or directory
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find -lstdc++
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find -lm
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find -lc
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find -ldl
+D:/Android/ndk/android-ndk-r14b/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld.exe: cannot find crtend_android.o: No such file or directory
+collect2.exe: error: ld returned 1 exit status
+
+

@@ -1,0 +1,22 @@
+Executable : D:\Android\SDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\Project\ProjectForAs\GoogleBreakpad-master\GoogleBreakpad-master\breakpad
+-DCMAKE_CXX_FLAGS=-std=c++11
+-DCMAKE_BUILD_TYPE=Release
+-DCMAKE_TOOLCHAIN_FILE=E:\Project\ProjectForAs\GoogleBreakpad-master\GoogleBreakpad-master\breakpad\.cxx\cmake\release\arm64-v8a\pre-ndk-r15-wrapper-android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=D:\Android\ndk\android-ndk-r14b
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=D:\Android\ndk\android-ndk-r14b
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Project\ProjectForAs\GoogleBreakpad-master\GoogleBreakpad-master\breakpad\build\intermediates\cmake\release\obj\arm64-v8a
+-DCMAKE_MAKE_PROGRAM=D:\Android\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_TOOLCHAIN=gcc
+-BE:\Project\ProjectForAs\GoogleBreakpad-master\GoogleBreakpad-master\breakpad\.cxx\cmake\release\arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

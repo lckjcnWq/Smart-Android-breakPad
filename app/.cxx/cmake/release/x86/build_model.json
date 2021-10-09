@@ -1,0 +1,231 @@
+{
+  "abi": "X86",
+  "abiPlatformVersion": 19,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86",
+    "cmakeServerLogFile": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cxx\\release\\x86",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
+      ],
+      "buildRoot": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86",
+      "cmakeToolchain": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86\\pre-ndk-r15-wrapper-android.toolchain.cmake",
+      "cmakeExecutable": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "-std\u003dc++11"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Release"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86\\pre-ndk-r15-wrapper-android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "D:\\Android\\ndk\\android-ndk-r14b"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-19"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "x86"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "D:\\Android\\ndk\\android-ndk-r14b"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "19"
+        },
+        {
+          "name": "ANDROID_TOOLCHAIN",
+          "value": "gcc"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_TOOLCHAIN\u003dgcc"
+    ],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [
+      "-std\u003dc++11"
+    ],
+    "isDebuggableEnabled": false,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+      },
+      "cmakeToolchainFile": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx\\cmake\\release\\x86\\pre-ndk-r15-wrapper-android.toolchain.cmake",
+      "cxxFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\.cxx",
+      "gradleModulePathName": ":app",
+      "intermediatesFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\build\\intermediates",
+      "makeFile": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\CMakeLists.txt",
+      "moduleBuildFile": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\build.gradle",
+      "moduleRootFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app",
+      "ndkDefaultAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64",
+        "MIPS",
+        "MIPS64"
+      ],
+      "ndkFolder": "D:\\Android\\ndk\\android-ndk-r14b",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "MIPS",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "MIPS64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkSupportedAbiList": [
+        "ARMEABI",
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64",
+        "MIPS",
+        "MIPS64"
+      ],
+      "ndkVersion": "14.1.3816874",
+      "project": {
+        "compilerSettingsCacheFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\.cxx",
+        "cxxFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master",
+        "sdkFolder": "D:\\Android\\SDK"
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "GNUSTL_SHARED": {
+          "ARMEABI": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\libgnustl_shared.so",
+          "ARMEABI_V7A": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\libgnustl_shared.so",
+          "ARM64_V8A": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\libgnustl_shared.so",
+          "X86": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\libgnustl_shared.so",
+          "X86_64": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\libgnustl_shared.so",
+          "MIPS": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\libgnustl_shared.so",
+          "MIPS64": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\libgnustl_shared.so"
+        },
+        "GNUSTL_STATIC": {},
+        "LIBCXX_SHARED": {
+          "ARMEABI": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi\\libc++_shared.so",
+          "ARMEABI_V7A": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi-v7a\\libc++_shared.so",
+          "ARM64_V8A": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so",
+          "X86": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so",
+          "X86_64": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86_64\\libc++_shared.so",
+          "MIPS": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\mips\\libc++_shared.so",
+          "MIPS64": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\llvm-libc++\\libs\\mips64\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "STLPORT_SHARED": {
+          "ARMEABI": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\armeabi\\libstlport_shared.so",
+          "ARMEABI_V7A": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\armeabi-v7a\\libstlport_shared.so",
+          "ARM64_V8A": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\arm64-v8a\\libstlport_shared.so",
+          "X86": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\x86\\libstlport_shared.so",
+          "X86_64": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\x86_64\\libstlport_shared.so",
+          "MIPS": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\mips\\libstlport_shared.so",
+          "MIPS64": "D:\\Android\\ndk\\android-ndk-r14b\\sources\\cxx-stl\\stlport\\libs\\mips64\\libstlport_shared.so"
+        },
+        "STLPORT_STATIC": {},
+        "SYSTEM": {}
+      }
+    },
+    "objFolder": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\app\\build\\intermediates\\cmake\\release\\obj",
+    "variantName": "release",
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86"
+    ]
+  }
+}

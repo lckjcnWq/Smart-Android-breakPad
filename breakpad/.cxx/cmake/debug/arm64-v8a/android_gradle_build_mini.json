@@ -1,0 +1,25 @@
+{
+  "buildFiles": [
+    "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\src\\main\\cpp\\breakpad\\CMakeLists.txt",
+    "D:\\Android\\ndk\\android-ndk-r14b\\build\\cmake\\android.toolchain.cmake",
+    "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "breakpad-Debug-arm64-v8a": {
+      "artifactName": "breakpad",
+      "buildCommand": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\.cxx\\cmake\\debug\\arm64-v8a\" breakpad",
+      "abi": "arm64-v8a",
+      "output": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\.cxx\\cmake\\debug\\arm64-v8a\\src\\main\\cpp\\breakpad\\libbreakpad.a"
+    },
+    "breakpad-core-Debug-arm64-v8a": {
+      "artifactName": "breakpad-core",
+      "buildCommand": "D:\\Android\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\.cxx\\cmake\\debug\\arm64-v8a\" breakpad-core",
+      "abi": "arm64-v8a",
+      "output": "E:\\Project\\ProjectForAs\\GoogleBreakpad-master\\GoogleBreakpad-master\\breakpad\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libbreakpad-core.so"
+    }
+  }
+}

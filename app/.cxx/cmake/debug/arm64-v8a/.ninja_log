@@ -1,0 +1,8 @@
+# ninja log v5
+1	317	655447309	build.ninja	57b95aee7f867a6d
+0	350	655447309	CMakeFiles/crash-lib.dir/src/main/cpp/crash-lib.cpp.o	b05f48a8a17a9ac3
+353	611	655447309	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libcrash-lib.so	f8fae4f59aa2887c
+0	309	655447479	build.ninja	57b95aee7f867a6d
+1	337	655447564	build.ninja	57b95aee7f867a6d
+1	317	655447622	build.ninja	57b95aee7f867a6d
+1	352	655452972	build.ninja	57b95aee7f867a6d
